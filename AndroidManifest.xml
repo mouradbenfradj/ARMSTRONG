@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pfe.mbf.armstrong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pfe.mbf.armstrong.ArmStrong"
+              android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pfe.mbf.armstrong.Jeux"
+              android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.JEUX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+ 		    android:name="pfe.mbf.armstrong.MenuP"
+ 		      android:screenOrientation="portrait"
+ 		    android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENUP" />
+               	<category android:name="android.intent.category.DEFAULT" />
+           	</intent-filter>
+        </activity>
+         <activity
+ 		    android:name="pfe.mbf.armstrong.MenuJ"
+ 		      android:screenOrientation="portrait"
+ 		    android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENUJ" />
+               	<category android:name="android.intent.category.DEFAULT" />
+           	</intent-filter>
+        </activity>
+        <activity
+ 		    android:name="pfe.mbf.armstrong.Instruction"
+ 		      android:screenOrientation="portrait"
+ 		    android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INSTRUCTION" />
+               	<category android:name="android.intent.category.DEFAULT" />
+           	</intent-filter>
+        </activity>
+    </application>
+
+</manifest>

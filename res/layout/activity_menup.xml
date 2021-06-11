@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jeux" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="241dp"
+        android:layout_height="302dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/principale" />
+
+    <ImageButton
+        android:id="@+id/jouer"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/instruction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/jouer" />
+
+    <ImageButton
+        android:id="@+id/instruction"
+        android:layout_width="116dp"
+        android:layout_height="19dp"
+        android:layout_alignLeft="@+id/jouer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/instruction" />
+
+</RelativeLayout>
